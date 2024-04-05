@@ -9,9 +9,9 @@ This project uses a Linux shell script (imitating an IoT edge device) to
 
 The Linux shell script (start.sh)
   - checks/loads needed software and dependencies
-      . Python
-      . AWS certificates
-      . AWS Device SDK for Python
+      - Python
+      - AWS certificates
+      - AWS Device SDK for Python
   - runs a sample Python pubsub script (aws-iot-device-sdk-python-v2 > samples > pubsub.py) to
       connect to the AWS IoT MQTT endpoint with authentication and topic
       send a 'canned' message (repeated once per second).
